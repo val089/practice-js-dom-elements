@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log(links);
 
     links.forEach(link => {
+        //set attribute if we have data-url attribute
         if (link.hasAttribute('data-url')) {
             const url = link.getAttribute('data-url');
             link.setAttribute('href', url);
