@@ -14,5 +14,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 
-    console.log(dataInfo.length);
+    console.log(dataInfo.length);dfsd
 });
